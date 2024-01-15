@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -9,14 +7,12 @@ body {
     padding: 0;
 }
 
-
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1vw 0;
 }
-
 
 section {
     display: flex;
@@ -26,10 +22,10 @@ section {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
 .column{
     display:inline-block;
 }
-
 
 #section1{
     background-color: darkgray;
@@ -42,7 +38,6 @@ section {
     margin-top: 0;
 }
 
-
 h2{
     text-align: left;
     padding-left: 1%;
@@ -51,16 +46,10 @@ h2{
     font-size: 1.4vw;
 }
 
-
 #section2 {
     width: 100%;
     flex: auto;
-
-
-
-
 }
-
 
 img {
     margin-top: 10%;
@@ -69,34 +58,29 @@ img {
     border-radius: 50%;
 }
 
-
 h1, h2, h3 {
     color: #333;
 }
+
 .seccionsParaleles {
     border-bottom: 0.2vw solid #333;
     padding-bottom: 1%;
     margin-top: 1%;
     font-size: 1.4vw;
 }
+
 ul {
     text-align: left;
     list-style-type: none;
     padding: 0;
     font-size: 0.9vw;
     margin-left: 2%;
-
-
 }
-
 
 ul li {
     margin-bottom: 1%;
 }
 
-
 .education, .experience {
     box-sizing: border-box;
-
-
 }
