@@ -12,8 +12,12 @@ header {
     padding: 40px;
 }
 
-h1, h2, p {
+h1, p {
     color: #333;
+}
+
+h2{
+    color: #4285f4;
 }
 
 section {
