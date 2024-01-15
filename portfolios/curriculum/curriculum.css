@@ -1,9 +1,5 @@
-
-*{
-    background-color: rgb(210, 204, 144);
-}
-
 body {
+    background-color: rgb(210, 204, 144);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 20px;
 }
