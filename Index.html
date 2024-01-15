@@ -2,15 +2,75 @@
 <html>
 <head>
 <title>DAM1 2024 PORTFOLIO</title>
+<script>
+  function redirigir() {
+    var seleccion = document.getElementById("opciones").value;
+
+    // Aquí puedes definir las URL correspondientes para cada opción
+    var opcionesURL = {
+      "opcion1": "portfolios/DavidAlegria.html",
+      "opcion2": "portfolios/opcion2.html", //Alejandro Baca
+      "opcion3": "portfolios/opcion3.html", //Eva Berbel
+      "opcion4": "portfolios/opcion4.html", //Adrian Calderon
+      "opcion5": "portfolios/opcion5.html", //Aleix Calle
+      "opcion6": "portfolios/opcion6.html", //Oriol Carulla
+      "opcion7": "portfolios/opcion7.html", //Murilo Ferreira
+      "opcion8": "portfolios/opcion8.html", //Kevin Hernández
+      "opcion9": "portfolios/opcion9.html", //Tomás Hernández
+      "opcion10": "portfolios/opcion10.html", //Yousri Jellab
+      "opcion11": "portfolios/opcion11.html", //Pau Juarez
+      "opcion12": "portfolios/opcion12.html", //Ferran Lopez
+      "opcion13": "portfolios/opcion13.html", //Jose Miguel Martínez
+      "opcion14": "portfolios/opcion14.html", //Joel Ortiz
+      "opcion15": "portfolios/opcion15.html", //Martina Paredes
+      "opcion16": "portfolios/opcion16.html", //Elia Permisán
+      "opcion17": "portfolios/opcion17.html", //Abdul Sadiq
+      "opcion18": "portfolios/opcion18.html", //Sheima Saloui
+      "opcion19": "portfolios/opcion19.html", //Alex Sitjà
+      "opcion20": "portfolios/opcion20.html", //Marta Valiente
+      "opcion21": "portfolios/ernest.html"  //Ernest Bofill
+    };
+
+    // Obtener la URL correspondiente a la opción seleccionada
+    var url = opcionesURL[seleccion];
+
+    // Redirigir a la URL
+    window.location.href = url;
+  }
+</script>
 </head>
 <body>
 
 <h1>DAM1 Portfolio of 2024</h1>
 <p>These are the portfolios of DAM students.</p>
 
-<ul>
-  <li><a href="/portfolios/ernest">Ernest Bofill</a></li>
-</ul>
+<form onsubmit="redirigir(); return false;">
+  <label for="opciones">Selecciona una Alumno:</label>
+  <select id="opciones" name="opciones">
+    <option value="opcion1">David Alegria</option>
+    <option value="opcion2">Alejandro Baca</option>
+    <option value="opcion3">Eva Berbel</option>
+    <option value="opcion4">Adrian Calderon</option>
+    <option value="opcion5">Aleix Calle</option>
+    <option value="opcion6">Oriol Carulla</option>
+    <option value="opcion7">Murilo Ferreira</option>
+    <option value="opcion8">Kevin Hernández</option>
+    <option value="opcion9">Tomás Hernández</option>
+    <option value="opcion10">Yousri Jellab</option>
+    <option value="opcion11">Pau Juarez</option>
+    <option value="opcion12">Ferran Lopez</option>
+    <option value="opcion13">Jose Miguel Martínez</option>
+    <option value="opcion14">Joel Ortiz</option>
+    <option value="opcion15">Martina Paredes</option>
+    <option value="opcion16">Elia Permisán</option>
+    <option value="opcion17">Abdul Sadiq</option>
+    <option value="opcion18">Sheima Saloui</option>
+    <option value="opcion19">Alex Sitjà</option>
+    <option value="opcion20">Marta Valiente</option>
+    <option value="opcion21">Ernest Bofill</option>
+  </select>
 
+  <input type="submit" value="Ir al Portfolio">
+</form>
 </body>
 </html>
