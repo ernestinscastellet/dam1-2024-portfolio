@@ -1,0 +1,80 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+    height: 97vh;
+    width: 100%;
+}
+
+.lateralmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+}
+
+.barra {
+    height: 80%;
+    display: flex;
+    /* Modificación: Cambio a flex-direction: row para desplazamiento horizontal */
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.barra ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.barra li {
+    padding: 10px;
+    margin: 10%;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.barra li:hover {
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.content {
+    border: 1px solid black;
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    /* Modificación: Cambio de dirección de la flexbox a columna */
+    .page {
+        flex-direction: column;
+    }
+
+    /* Modificación: Ancho del menú lateral al 100% en pantallas pequeñas */
+    .lateralmenu {
+        width: 100%;
+    }
+
+    /* Modificación: Ajustes adicionales para desplazamiento horizontal */
+    .barra {
+        align-items: flex-start;
+    }
+
+    .barra li {
+        margin: 10px 0;
+    }
+
+    .content{
+       width: 100%; 
+    }
+}
