@@ -2,6 +2,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* Pagina principal*/
+
 .page {
     display: flex;
     flex-direction: row;
@@ -51,18 +53,88 @@
     border-radius: 10px;
     text-align: center;
 }
-
 .marca img{
     width: 30%;
 }
-
 .content img{
     width: 30%;
 }
-
 #focus{
     box-shadow: 0px 0px 5px 0px black;
     border: 1.5px solid black;
+}
+/* Contenido menus*/
+.exp{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 100px;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.exp p{
+    margin: 0px;
+}
+
+
+
+.exp ul{
+    text-align: start;
+    margin: 0px;
+}
+.exp-hijos{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.exp2{
+    margin-top: 10px;
+}
+
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 2%;
+    margin-bottom: 10px;
+}
+
+.formacion p {
+    margin: 0px;
+}
+
+.hijoformacion{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.idiomas{
+    margin-top: 2%;
+}
+
+.infoflex{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.infohijo1{
+    padding-right: 25px;
+    border-right: 2px solid black;
+}
+
+.infohijo2{
+    padding-left: 25px;
+}
+
+.infohijo p{
+    margin: 4px;
 }
 
 /* Media query para pantallas más pequeñas */
@@ -71,6 +143,7 @@
     .page {
         flex-direction: column;
     }
+
     .marca {
         display: flex;
         flex-direction: row;
@@ -96,5 +169,10 @@
 
     .content{
        width: 100%; 
+    }
+
+    .exp{
+        margin-top: 15px;
+        margin-bottom: 10px;
     }
 }
