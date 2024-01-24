@@ -21,7 +21,6 @@
 .barra {
     height: 80%;
     display: flex;
-    /* Modificación: Cambio a flex-direction: row para desplazamiento horizontal */
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -53,11 +52,32 @@
     text-align: center;
 }
 
+.marca img{
+    width: 30%;
+}
+
+.content img{
+    width: 30%;
+}
+
+#focus{
+    box-shadow: 0px 0px 5px 0px black;
+    border: 1.5px solid black;
+}
+
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
     /* Modificación: Cambio de dirección de la flexbox a columna */
     .page {
         flex-direction: column;
+    }
+    .marca {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .marca img{
+        width: 10%;
     }
 
     /* Modificación: Ancho del menú lateral al 100% en pantallas pequeñas */
