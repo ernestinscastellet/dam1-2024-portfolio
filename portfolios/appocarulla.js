@@ -104,5 +104,22 @@ const paginas = {
                 </div>
             </div>
         </div>
-    </div>`
+    </div>`,
+    pagina4: `<div class="proyectos">
+    <h2>Proyectos Personales</h2>
+    <div class="flexproyectos">
+        <div class="hijoproyectos">
+            <h5><a href="https://twitter.com/PromileDev">Promile</h5>
+            <img src="https://cdn.discordapp.com/attachments/1167243389520056361/1167243482088345640/promile.png?ex=65bc2934&is=65a9b434&hm=41b2a9eec6920e43c10386f736764f09c43116f8121f669841dfc65166b43765&" alt=""></a>
+        </div>
+        <div class="hijoproyectos">
+            <h5><a href="">Allistix</h5>
+            <img src="https://media.discordapp.net/attachments/1067020998626525234/1071127563478499398/Allistix_Logo_NIGGER.png?ex=65bd2d47&is=65aab847&hm=17f4a5f515c44011d18a04ebbb99b17b7b0ae11bb2f27315931699ebb12aa060&=&format=webp&quality=lossless&width=874&height=874" alt=""></a>
+        </div>
+        <div class="hijoproyectos">
+            <h5><a href="https://twitter.com/PrimeCostTR">PrimeCost</h5>
+            <img src="https://media.discordapp.net/attachments/854088843883315240/1199877108105748480/primecost2.png?ex=65c423a3&is=65b1aea3&hm=dae82b9380d2a054cc4108de3fcf91b174fca4ebb426b20bc71846ba8d1310a5&=&format=webp&quality=lossless" alt=""></a>
+        </div>
+    </div>
+</div>`
 }
