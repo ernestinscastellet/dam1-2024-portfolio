@@ -137,6 +137,30 @@
     margin: 4px;
 }
 
+.flexproyectos{
+    display: flex;
+    justify-content:space-between;
+}
+
+.hijoproyectos a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.hijoproyectos img{
+    width: 200px;
+}
+
+.hijoproyectos{
+    margin-top: 8%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-left: 4%;
+    padding-right: 4%;
+    border:1px solid black;
+    border-radius: 10px;
+}
+
 /* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
     /* Modificación: Cambio de dirección de la flexbox a columna */
@@ -174,5 +198,13 @@
     .exp{
         margin-top: 15px;
         margin-bottom: 10px;
+    }
+
+    .flexproyectos{
+        flex-direction: column;
+    }
+
+    .hijoproyectos{
+        margin-bottom: 10%;
     }
 }
