@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: #007bff; /* Color de fondo azul Bootstrap */
+    color: #ffffff; /* Color de texto blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3 {
+    color: #007bff; /* Color de texto azul Bootstrap */
+}
+
+h2 {
+    border-bottom: 2px solid #007bff; /* Línea inferior azul Bootstrap */
+    padding-bottom: 5px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Estilo para las secciones de Educación, Idiomas, Experiencia Laboral y Habilidades */
+h3 {
+    margin-top: 10px;
+}
+
+/* Cambiar el color de fondo de las secciones de Educación, Idiomas, Experiencia Laboral y Habilidades */
+h2 + h3 {
+    background-color: #f8f9fa; /* Color de fondo gris claro Bootstrap */
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Estilo para las fechas y direcciones en la sección de Experiencia Laboral */
+h3 + p {
+    font-style: italic;
+    color: #6c757d; /* Color de texto gris Bootstrap */
+}
+
+/* Estilo para las habilidades en la sección de Habilidades */
+h2 + p {
+    font-weight: bold;
+}
+
+/* Estilo para las aptitudes y habilidades en la sección de Habilidades */
+h2 + p + p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los elementos de la lista en la sección de Idiomas */
+h2 + p + p + p {
+    list-style-type: square;
+    margin-left: 20px;
+}
