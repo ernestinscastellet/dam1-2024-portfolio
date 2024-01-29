@@ -1,0 +1,84 @@
+/* Reset de estilos para eliminar márgenes y padding por defecto */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales para el cuerpo del documento */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #ffffff;
+  margin: 20px;
+}
+
+/* Estilos del encabezado (header) */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #920707;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ffffffe7;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+/* Estilos de las secciones (education, experience, skills, contact) */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ff0000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Estilos de la sección Education */
+.education li {
+  margin-bottom: 15px;
+}
+
+/* Estilos de la sección Experience */
+.experience li {
+  margin-bottom: 20px;
+}
+
+/* Estilos de la sección Skills */
+.skills li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 8px 15px;
+  background-color: #ff6a00;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Estilos de la sección Contact */
+.contact p {
+  margin-bottom: 10px;
+}
+
+/* Enlaces */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
