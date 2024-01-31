@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: rgba(127, 255, 212, 0.429);
+}
+
+h1 {
+    color: #282424;
+}
+
+img {
+    border-radius: 50%;
+    border:2px solid #000;
+}
+
+.apt, .exp, .for, .lng, .prp {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+b {
+    color: #000;
+}
