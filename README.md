@@ -35,3 +35,7 @@
 
 FAREM UNA PROVA DE PR
 
+### DEPLOYMENT GROUP
+
+>After seeing several ways to publish the website, we found the most efficient way. First you access the repository settings. Second we access the "Page" section. Thirdly, we fill in the necessary data requested to open the website. Fourth, we wait for it to be ready and check to see that everything is correct.
+(Screenshots could not be integrated since the work was done from the teacher's device)
