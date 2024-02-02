@@ -39,3 +39,29 @@ FAREM UNA PROVA DE PR
 
 >After seeing several ways to publish the website, we found the most efficient way. First you access the repository settings. Second we access the "Page" section. Thirdly, we fill in the necessary data requested to open the website. Fourth, we wait for it to be ready and check to see that everything is correct.
 (Screenshots could not be integrated since the work was done from the teacher's device)
+
+
+## Quality
+
+In the Quality department, comprised of Aleix Calle, Alex Sitja, and Sheima Saloui, we have performed the following functions on GitHub:
+
+### 1. HTML and CSS Review:
+- A thorough review of each colleague's HTML and CSS code has been conducted.
+- Comments were added indicating where information needed to be added or removed, such as white spaces or missing information.
+
+![Qty1](Qty1.png)
+
+### 2. Approval for the Second Phase:
+- The work of colleagues has been evaluated, and approval has been granted to those who successfully addressed the errors identified in the initial review.
+
+![Qty2](Qty2.png)
+
+
+### 3. Portfolio Development:
+- The goal is to have a minimal version of each team member's portfolio by the end of the week.
+- The final version should be merged into the main branch through a Pull Request (PR).
+
+![Qty3](Qty3.png)
+
+Our team has been reminded of the importance of promptly reviewing Pull Requests, as colleagues will be waiting for approval. This ensures efficient collaboration and continuous progress in the project development.
+
