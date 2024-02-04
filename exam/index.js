@@ -1,1 +1,1 @@
-// empty
+console.print("good luck!")
