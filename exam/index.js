@@ -1,1 +1,1 @@
-console.print("good luck!")
+// empty
